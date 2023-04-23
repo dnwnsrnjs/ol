@@ -1,0 +1,6 @@
+s = int(input())
+lst = list(str(s))
+lst.sort()
+sum_ = sum(lst)
+print(sum_)
+print(lst[2])
